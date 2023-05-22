@@ -6,11 +6,11 @@ import { ProductHomeComponent } from '@app/product/product-home/product-home.com
 import { GeneratorComponent } from '@app/report/generator/generator.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent, title: 'Casestudy - Home' },
-  { path: 'vendors', component: VendorHomeComponent, title: 'Casestudy - Vendors' },
-  { path: 'products', component: ProductHomeComponent, title: 'Casestudy - Products' },
-  { path: 'generator', component: GeneratorComponent, title: 'Casestudy - Generator' },
-  { path: '', component: HomeComponent, title: 'Casestudy - Home' },
+  { path: 'home', component: HomeComponent, title: 'Home' },
+  { path: 'vendors', component: VendorHomeComponent, title: 'Vendors' },
+  { path: 'products', component: ProductHomeComponent, title: 'Products' },
+  { path: 'generator', component: GeneratorComponent, title: 'Generator' },
+  { path: '', component: HomeComponent, title: 'Home' },
 ];
 
 @NgModule({

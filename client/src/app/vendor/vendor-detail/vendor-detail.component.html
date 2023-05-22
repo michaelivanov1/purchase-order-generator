@@ -1,11 +1,4 @@
 <form [formGroup]="vendorForm">
-    <!-- <div layout="row">
-        <mat-form-field flex>
-            <input matInput placeholder="Title" type="text" maxlength="4" formControlName="title">
-            <mat-error *ngIf="title.errors && (title.dirty || title.touched)" align="end"> Title is
-                required </mat-error>
-        </mat-form-field>
-    </div> -->
     <div layout="row">
         <mat-form-field>
             <input matInput placeholder="Name" type="text" required formControlName="name">

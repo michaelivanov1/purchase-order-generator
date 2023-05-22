@@ -27,21 +27,20 @@ public class Product {
     private BigDecimal msrp;
     // rop – is the Reorder Point, when stock falls to this # we re-order the good
     private int rop;
-    // eoq – is the Economic Order Quantity this is a value calculated by some bean
+    // eoq – is the Economic Order Quantity this is a value calculated by some 
     // counter who has figured out that it makes most economic sense to order this
-    // amount. This value will be smaller for say a fridge than it would for a good like a thumb tack
+    // amount. 
     private int eoq;
     // qoh – Quantity on Hand, what we have in inventory
     private int qoh;
     // qoo – Quantity on Order. what we have ordered but not received
     private int qoo;
-    // qrcode – case 2
+    // qrcode 
     @Lob
     private byte[] qrcode;
-    // qrcodetxt – case 2
+    // qrcodetxt 
     private String qrcodetxt;
 
-    // 2nd case study
     @Basic(optional = true)
     @Lob
     private String receiptscan;
